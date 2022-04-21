@@ -1,6 +1,6 @@
 import * as functions from "firebase-functions";
 
-// Dummy function.
+// test function
 exports.testFunction = functions.firestore
   .document("toChange/test")
   .onUpdate((snap) => {

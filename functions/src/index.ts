@@ -7,6 +7,6 @@ import * as anotherFunction from "./anotherFunction";
 // Common initialization for Firebase
 admin.initializeApp();
 
-//Functions are deployed from here
+//Functions are deployed from here.
 exports.test = testFunction;
 exports.another = anotherFunction;
